@@ -3,8 +3,8 @@
 - O JWT (JSON Web Token) é um token no formato de string que carrega informações de forma segura (embora não criptografada por padrão, apenas assinada).
   Ele é usado para autenticação e autorização:
 
-**Autenticação** → Provar quem você é.
-**Autorização** → Provar o que você pode acessar.
+- **Autenticação** → Provar quem você é.
+- **Autorização** → Provar o que você pode acessar.
 
 Um JWT é composto por 3 partes separadas por pontos (.):
 
