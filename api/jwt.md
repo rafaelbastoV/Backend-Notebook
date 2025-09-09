@@ -30,6 +30,7 @@ Exemplo em JSON:
 
 Codificado em Base64 → primeira parte do token.
 
+---------------------------------------------------
 **2. Payload (corpo/dados)**
 
 Carrega as informações (claims).
@@ -47,6 +48,7 @@ exp → data de expiração (em timestamp Unix).
 
 Codificado em Base64 → segunda parte do token.
 
+---------------------------------------------------
 **3. Signature (assinatura)**
 
 Garante que o token não foi alterado.
