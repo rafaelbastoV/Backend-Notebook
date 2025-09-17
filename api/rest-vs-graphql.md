@@ -39,26 +39,27 @@ POST /users
     email
   }
 }
+```
 
 ---
 
 ## 3. Características
 
 - Flexibilidade:
-REST -> Retorna um recurso completo
-GraphQL -> Retorna apenas os campos solicitados
+  REST -> Retorna um recurso completo
+  GraphQL -> Retorna apenas os campos solicitados
 
 - Overfetching:
-REST -> Pode retornar dados desnecessários
-GraphQL -> Evita overfetching
+  REST -> Pode retornar dados desnecessários
+  GraphQL -> Evita overfetching
 
 - Underfetching:
-REST -> Pode exigir múltiplas requisições
-GraphQL -> Uma única query pode trazer tudo
+  REST -> Pode exigir múltiplas requisições
+  GraphQL -> Uma única query pode trazer tudo
 
 - Versionamento:
-REST -> Geralmente cria novas versões (v1)	Sem versionamento; o cliente escolhe
-GraphQL -> Curva de aprendizado	Simples de entender	Requer aprendizado de schema e query
+  REST -> Geralmente cria novas versões (v1) Sem versionamento; o cliente escolhe
+  GraphQL -> Curva de aprendizado Simples de entender Requer aprendizado de schema e query
 
 ---
 
@@ -78,9 +79,8 @@ GraphQL:
 
 ---
 
-5. Conclusão
+## 5. Conclusão
 
 - REST é maduro, simples e funciona bem para APIs tradicionais.
 - GraphQL oferece mais flexibilidade e eficiência, mas pode ser mais complexo de implementar.
 - A escolha depende do tipo de aplicação, quantidade de dados trafegados e necessidade de evolução da API.
-```
