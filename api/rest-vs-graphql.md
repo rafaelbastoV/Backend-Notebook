@@ -45,21 +45,30 @@ POST /users
 
 ## 3. Características
 
-- Flexibilidade:
-  REST -> Retorna um recurso completo
-  GraphQL -> Retorna apenas os campos solicitados
+Flexibilidade:
 
-- Overfetching:
-  REST -> Pode retornar dados desnecessários
-  GraphQL -> Evita overfetching
+- REST -> Retorna um recurso completo
+- GraphQL -> Retorna apenas os campos solicitados
 
-- Underfetching:
-  REST -> Pode exigir múltiplas requisições
-  GraphQL -> Uma única query pode trazer tudo
+Overfetching:
 
-- Versionamento:
-  REST -> Geralmente cria novas versões (v1) Sem versionamento; o cliente escolhe
-  GraphQL -> Curva de aprendizado Simples de entender Requer aprendizado de schema e query
+- REST -> Pode retornar dados desnecessários
+- GraphQL -> Evita overfetching
+
+Underfetching:
+
+- REST -> Pode exigir múltiplas requisições
+- GraphQL -> Uma única query pode trazer tudo
+
+Versionamento:
+
+- REST -> Geralmente cria novas versões (v1)
+- GraphQL -> Sem versionamento; o cliente escolhe
+
+Curva de aprendizado:
+
+- Simples de entender
+- Requer aprendizado de schema e query
 
 ---
 
